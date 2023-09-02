@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMathggTCalc", "MyMathggTCalc.csproj", "{D658FA35-0A71-4C43-926B-702DDEE55AF2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02Instanzvariablen", "02Instanzvariablen.csproj", "{0CA63C9B-2B86-4DA3-AA32-B2DF1DF3698B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{D658FA35-0A71-4C43-926B-702DDEE55AF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D658FA35-0A71-4C43-926B-702DDEE55AF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D658FA35-0A71-4C43-926B-702DDEE55AF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D658FA35-0A71-4C43-926B-702DDEE55AF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA63C9B-2B86-4DA3-AA32-B2DF1DF3698B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA63C9B-2B86-4DA3-AA32-B2DF1DF3698B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA63C9B-2B86-4DA3-AA32-B2DF1DF3698B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA63C9B-2B86-4DA3-AA32-B2DF1DF3698B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {79D24325-5623-45A8-9F1E-C11F15481963}
+		SolutionGuid = {228ED939-D409-4E15-8393-429F098954C7}
 	EndGlobalSection
 EndGlobal
