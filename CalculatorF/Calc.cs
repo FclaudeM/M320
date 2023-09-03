@@ -9,6 +9,64 @@ namespace CalculatorF
     internal class Calc
     {
 
+        static public int Continue(int result)
+        {
+            Console.WriteLine("Mit dieser Zahl weiterfahren?\nJa = 1 Nein = 0");
+            int a = 0;
+            int sel1 = Convert.ToInt32(Console.ReadLine());
+            if (sel1 == 1)
+            {
+                a = result;
+                Calc.SelectionC(a);
+            }
+            else
+            {
+                Calc.Selection();
+            }
+            return a;
+        }
+
+        static public int SelectionC(int a)
+        {
+            Console.WriteLine("1 für Addition\n2 für Subtraktion\n3 für Multiplikation\n4 für Division\n5 für alle");
+            int sel = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Geben sie eine Zahl ein:");
+            int b = Convert.ToInt32(Console.ReadLine());
+            int result = 0;
+            switch (sel)
+            {
+                case 1:
+                    result = Calc.Add(a, b);
+                    Console.WriteLine($"Resultat Addition: {result}");
+                    break;
+                case 2:
+                    result = Calc.Sub(a, b);
+                    Console.WriteLine($"Resultat Subtraktion: {result}");
+                    break;
+                case 3:
+                    result = Calc.Mult(a, b);
+                    Console.WriteLine($"Resultat Multiplikation: {result}");
+                    break;
+                case 4:
+                    result = Calc.Div(a, b);
+                    Console.WriteLine($"Resultat Division: {result}");
+                    break;
+                case 5:
+                    result = Calc.Add(a, b);
+                    Console.WriteLine($"Resultat Addition: {result}");
+                    result = Calc.Sub(a, b);
+                    Console.WriteLine($"Resultat Subtraktion: {result}");
+                    result = Calc.Mult(a, b);
+                    Console.WriteLine($"Resultat Multiplikation: {result}");
+                    result = Calc.Div(a, b);
+                    Console.WriteLine($"Resultat Division: {result}");
+                    break;
+                default:
+                    break;
+            }
+            return result;
+        }
+
         static public int Selection()
         {
             Console.WriteLine("1 für Addition\n2 für Subtraktion\n3 für Multiplikation\n4 für Division\n5 für alle");

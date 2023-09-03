@@ -6,7 +6,13 @@ namespace CalculatorF
     {
         static void Main(string[] args)
         {
-            Calc.Selection();
+            while (true)
+            {
+                Console.WriteLine("---Rechner---");
+                int result = Calc.Selection();
+                Calc.Continue(result);
+            }
+
         }
     }
 }
