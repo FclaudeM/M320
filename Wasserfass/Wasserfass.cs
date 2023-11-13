@@ -8,49 +8,46 @@ namespace Wasserfass
 {
     internal class Wasserfass
     {
-        {
         private readonly int minimalPegel;
         private readonly int maximalPegel;
-        private int füllstand;
+        public int füllstand;
         private readonly int kapazität;
 
-        public Wasserfass(int minimalPegel, int maximalPegel, int kapazität)
+        public Wasserfass(int minimalPegel, int maximalPegel, int kapazität, int füllstand)
         {
             this.minimalPegel = minimalPegel;
             this.maximalPegel = maximalPegel;
             this.kapazität = kapazität;
-            this.füllstand = minimalPegel;
+            this.füllstand = füllstand;
         }
 
-        public int Füllstand
+        public void befüllen(int menge)
         {
-            füllstand = füllstand + Befüllen;
-            füllstand = füllstand - Entnehmen;
-            return füllstand;
-        }
-
-        public int Kapazität
-        {
-            get { return kapazität; }
-        }
-
-        public int Befüllen(int menge)
-        {
-            füllstand++;
-            return füllstand;
-        }
-
-        public int Entnehmen(int menge)
+            if (füllstand + menge > maximalPegel)
             {
-                füllstand--;
-                return füllstand;
+                
             }
+            else
+            {
+                füllstand += menge;
+            }
+        }
 
-        public int Entleeren()
+        public void entnehmen(int menge)
+        {
+            if (füllstand - menge < minimalPegel)
+            {
+                füllstand = minimalPegel;
+            }
+            else
+            {
+                füllstand -= menge;
+            }
+        }
+
+        public void entleeren()
         {
             füllstand = minimalPegel;
-                return füllstand;
         }
     }
-}
 }
