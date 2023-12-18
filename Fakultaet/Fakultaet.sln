@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32811.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fakultaet", "Fakultaet.csproj", "{9BA29549-EFD0-4192-A4A5-2983A3DB6067}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakultaetTests", "..\FakultaetTests\FakultaetTests.csproj", "{204774F0-8022-4C21-9880-2A0D3E2B508F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9BA29549-EFD0-4192-A4A5-2983A3DB6067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA29549-EFD0-4192-A4A5-2983A3DB6067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA29549-EFD0-4192-A4A5-2983A3DB6067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA29549-EFD0-4192-A4A5-2983A3DB6067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{204774F0-8022-4C21-9880-2A0D3E2B508F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{204774F0-8022-4C21-9880-2A0D3E2B508F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{204774F0-8022-4C21-9880-2A0D3E2B508F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{204774F0-8022-4C21-9880-2A0D3E2B508F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69EE7EF4-E46D-4F2E-8CA7-E227A42F2D27}
+	EndGlobalSection
+EndGlobal

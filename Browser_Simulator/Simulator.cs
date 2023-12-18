@@ -20,7 +20,6 @@ namespace Browser_Simulator
                 }
 
                 stringStack.Push(url);
-                Run(stringStack);
 
                 BrowseURL(url);
             }
